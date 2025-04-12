@@ -59,11 +59,21 @@ python main.py
 
 ---
 
-## 📊 Resultados
+## 📊 Resultados e Visualizações
+Gráfico com a distribuição de posts por categoria
 
-- Geração de gráficos com a **distribuição de posts por categoria**
-- **Matrizes de confusão** com porcentagem de acertos por modelo
-- **Relatórios de classificação (precision, recall, f1-score)**
+Matrizes de confusão com porcentagens de acerto por classe
+
+Relatórios de performance de cada modelo (Precision, Recall e F1-Score)
+
+## ✅ Potenciais Aplicações
+Classificação automatizada de textos por domínio
+
+Análise de tendências temáticas em redes sociais
+
+Sistemas de triagem e recomendação de conteúdo textual
+
+Benchmark de modelos de classificação em dados do mundo real
 
 ---
 
