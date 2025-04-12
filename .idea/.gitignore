@@ -1,19 +1,20 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# Ignorar credenciais
 config.py
+
+# Ignorar arquivos de cache e compilação
 __pycache__/
 *.py[cod]
 *.log
+
+# Ignorar notebooks temporários
 .ipynb_checkpoints/
+
+# Ignorar ambientes virtuais
 .env/
 .venv/
 env/
 ENV/
+
+# Ignorar arquivos do sistema operacional
 .DS_Store
 Thumbs.db
