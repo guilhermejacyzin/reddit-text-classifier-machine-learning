@@ -1,28 +1,36 @@
-# Classificador de Texto com Dados do Reddit
+# 🔍 Classificador de Texto com Machine Learning usando Dados do Reddit
 
-Este projeto utiliza **Machine Learning supervisionado** para classificar postagens coletadas via API do Reddit em diferentes categorias:  
+Este projeto demonstra a aplicação de **aprendizado supervisionado** em dados reais da web, com o objetivo de **classificar postagens do Reddit em categorias temáticas específicas**. Utilizando técnicas modernas de **Processamento de Linguagem Natural (NLP)** e **modelos de classificação**, ele constrói um pipeline completo, desde a coleta dos dados até a avaliação dos resultados.
+
+As categorias-alvo deste projeto são os subreddits:
+
 `datascience`, `machinelearning`, `physics`, `deeplearning` e `dataengineering`.
 
 ---
 
-## 📌 Tecnologias Utilizadas
+## 📦 Tecnologias e Bibliotecas
 
 - **Python 3.10+**
-- **PRAW** (API Reddit)
-- **Scikit-learn**
-- **TF-IDF + SVD**
-- **KNN**, **Random Forest**, **Regressão Logística**
-- **Matplotlib e Seaborn** para gráficos
+- **PRAW** – para extração de dados da API do Reddit
+- **Scikit-learn** – para pré-processamento e construção dos modelos
+- **TF-IDF** – vetorização textual
+- **SVD (Truncated SVD)** – redução de dimensionalidade
+- Modelos utilizados:
+  - **K-Nearest Neighbors (KNN)**
+  - **Random Forest**
+  - **Regressão Logística com Validação Cruzada**
+- **Matplotlib e Seaborn** – para visualizações gráficas
 
 ---
 
-## 🚀 Como Executar
+## 🚀 Como Executar o Projeto
 
-### 1. Clone o repositório
+### 1. Clone este repositório
 
 ```bash
 git clone https://github.com/seu-usuario/reddit-text-classifier.git
 cd reddit-text-classifier
+
 ```
 
 ### 2. Instale as dependências
